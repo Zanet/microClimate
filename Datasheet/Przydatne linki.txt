@@ -1,0 +1,7 @@
+Czujniki:
+http://playground.arduino.cc/Main/MQGasSensors
+
+MQ135:
+http://davidegironi.blogspot.it/2014/01/cheap-co2-meter-using-mq135-sensor-with.html#.VS6ogpPuTIU
+Dane CO2:
+http://co2now.org/
