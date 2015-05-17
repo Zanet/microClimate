@@ -87,7 +87,7 @@ legend('Dane', 'Krzywa dopasowana' ,'Location', 'Best'); %, 'NorthWest'
 
 display(['BAC = A*(Vcc/(Vo*3.3)-1)^B ']);
 display(['A = ', num2str(A)]);
-display(['B = ', num2str(A)]);
+display(['B = ', num2str(B)]);
 
 %% Generowanie plików
 % saveas(gcf, 'wykres_jpg', 'jpg');

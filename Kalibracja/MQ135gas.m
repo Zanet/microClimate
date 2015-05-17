@@ -7,7 +7,7 @@ clc
 % stê¿enia dwutlenku wegla
 ppm = [400, 2000];
 % odczyty z MQ135
-Vo = [0.21, 0.42];
+Vo = [0.176, 0.23];
 
 %% Trochê teorii
 % Ste¿enie dwutlenku wegla w czujniku mo¿e byæ opisan erównaniem potêgowym
@@ -23,6 +23,7 @@ Rs = Ro*(Vcc./(Vo.*3.3)-1);
 % Przeksztalcajac rownanie na ppm dostajemy rownanie liniowe:
 % ln(ppm/a)  = b* ln(Rs/Ro)
 % ln(ppm) = b*ln(Rs/Ro) + ln(a)
+% ppm = a*exp(b*ln(5/(odczyt*3.3)-1))
 % Rs/Ro = (Vcc./(Vo.*3.3)-1)
 stosunek_Rs_Ro = (Vcc./(Vo.*3.3)-1);
 
@@ -82,7 +83,7 @@ legend('Dane', 'Krzywa dopasowana' ,'Location', 'Best'); %, 'NorthWest'
 
 display(['ppm = A*(Vcc/(Vo*3.3)-1)^B ']);
 display(['A = ', num2str(A)]);
-display(['B = ', num2str(A)]);
+display(['B = ', num2str(B)]);
 
 %% Generowanie plików
 % saveas(gcf, 'wykres_jpg', 'jpg');
