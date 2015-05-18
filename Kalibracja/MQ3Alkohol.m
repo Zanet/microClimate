@@ -21,6 +21,15 @@ BAC = BAC(:,1);
 % Dodajemy ropornik Ro
 Ro = 10000; %%10kOhm
 % Mierzymy napiecie na Ro (dziwne, ale na to wychodzi)
+
+%z instrukcji:
+% Ro: sensor resistance at 0.4mg/L of
+% Alcohol in air at 33%RH and 20 ?
+% Rs: sensor resistance at 0.4mg/L of
+% Alcohol at different temperatures
+% and humidities.
+
+
 % Z dzielnika Vo = Vcc * (Ro/(Rs+Ro))
 Vcc = 5; %5V - mo¿na zmienic na 3,3!!!
 Rs = Ro*(Vcc./(Vo.*3.3)-1);
@@ -30,6 +39,8 @@ Rs = Ro*(Vcc./(Vo.*3.3)-1);
 % ln(ppm) = b*ln(Rs/Ro) + ln(a)
 % Rs/Ro = (Vcc./(Vo.*3.3)-1)
 stosunek_Rs_Ro = (Vcc./(Vo.*3.3)-1);
+kalibracja_temp_hum_MQ3;
+stosunek_Rs_Ro=stosunek_Rs_Ro./(p2(1)*T.^3+p2(2)*T.^2+p2(3)*T + p2(4));
 
 
 %% Generowanie danych - punkty
@@ -73,7 +84,7 @@ zakres_dodatkowy = 0.1; % procent wystaj¹cy poza punkty danych
 min = min - treshold*zakres_dodatkowy;
 max = max + treshold*zakres_dodatkowy;
 zmiennax = min:(max-min)/ile_punktow:max;
-zmiennay = A*(Vcc./(zmiennax*3.3) -1).^B;
+zmiennay = A*((Vcc./(zmiennax*3.3) -1)./ (p1(1)*T.^3+p1(2)*T.^2+p1(3)*T + p1(4))).^B;
 
 figure();
 set(gcf, 'Position', [100 100 600 400]);

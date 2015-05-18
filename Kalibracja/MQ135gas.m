@@ -5,9 +5,10 @@ clc
 
 %% Nasze w³asne dane
 % stê¿enia dwutlenku wegla
-ppm = [400, 2000];
+ppm = [450, 2000];
 % odczyty z MQ135
-Vo = [0.176, 0.23];
+Vo = [0.12, 0.35];
+T = [30 30];
 
 %% Trochê teorii
 % Ste¿enie dwutlenku wegla w czujniku mo¿e byæ opisan erównaniem potêgowym
@@ -16,6 +17,7 @@ Vo = [0.176, 0.23];
 % go jako:
 Ro = 22000; %%22kOhm
 % Mierzymy napiecie na Ro (dziwne, ale na to wychodzi)
+
 % Z dzielnika Vo = Vcc * (Ro/(Rs+Ro))
 Vcc = 5; %5V - mo¿na zmienic na 3,3!!!
 Rs = Ro*(Vcc./(Vo.*3.3)-1);
@@ -26,7 +28,8 @@ Rs = Ro*(Vcc./(Vo.*3.3)-1);
 % ppm = a*exp(b*ln(5/(odczyt*3.3)-1))
 % Rs/Ro = (Vcc./(Vo.*3.3)-1)
 stosunek_Rs_Ro = (Vcc./(Vo.*3.3)-1);
-
+kalibracja_temp_hum_MQ135;
+stosunek_Rs_Ro=stosunek_Rs_Ro./(p1(1)*T.^3+p1(2)*T.^2+p1(3)*T + p1(4));
 
 %% Generowanie danych - punkty
 y = log(ppm);
@@ -69,7 +72,8 @@ zakres_dodatkowy = 0.1; % procent wystaj¹cy poza punkty danych
 min = min - treshold*zakres_dodatkowy;
 max = max + treshold*zakres_dodatkowy;
 zmiennax = min:(max-min)/ile_punktow:max;
-zmiennay = A*(Vcc./(zmiennax*3.3) -1).^B;
+T=30;
+zmiennay = A*((Vcc./(zmiennax*3.3) -1)/(p1(1)*T.^3+p1(2)*T.^2+p1(3)*T + p1(4))).^B;
 
 figure();
 set(gcf, 'Position', [100 100 600 400]);
