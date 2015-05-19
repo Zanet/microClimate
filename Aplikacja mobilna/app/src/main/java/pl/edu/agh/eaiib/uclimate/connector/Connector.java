@@ -15,6 +15,9 @@ import pl.edu.agh.eaiib.uclimate.UClimateData;
  * Created by Jakub Szczepankiewicz on 2015-05-17.
  */
 public class Connector {
+private final String SERVERADDRESS = "192.168.0.18";
+private final int SERVERPORT = 11111;
+
     private Socket server;
     private BufferedReader read = null;
     String response = "";
@@ -30,9 +33,9 @@ public class Connector {
     public void getData(){
         try{
             InetAddress addr = null;
-            addr = InetAddress.getByName("192.168.0.18");
-            //connect("192.168.0.18", 11111);
-            connect(addr,11111);
+            addr = InetAddress.getByName(SERVERPORT);
+            //connect("192.168.0.18", SERVERPORT);
+            connect(addr,SERVERPORT);
             data.parseData(response);
             disconnect();
         }catch(Exception ex){

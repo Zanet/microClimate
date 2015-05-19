@@ -38,7 +38,6 @@ public class HumidityTab extends MyFragment implements Updateable{
     @Override
     public void updateData(UClimateData data) {
         value = data.getHumidity();
-        //System.out.println("hum:"+Float.toString(value));
         ((TextView) getView().findViewById(R.id.textView)).setText(Float.toString(value)+"%");
     }
 }

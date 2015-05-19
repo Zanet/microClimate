@@ -36,7 +36,6 @@ public class TemperatureTab extends MyFragment implements Updateable{
     @Override
     public void updateData(UClimateData data) {
         value = data.getTemperature_press();
-        //System.out.println("temp:"+Float.toString(value));
         ((TextView) getView().findViewById(R.id.textView)).setText(Float.toString(value)+" deg.");
     }
 }

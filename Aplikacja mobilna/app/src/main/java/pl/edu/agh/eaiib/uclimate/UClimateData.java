@@ -72,7 +72,7 @@ public class UClimateData {
     public float getAlcohol() {
         return alcohol;
     }
-
+/*
     public void testing() {
 
         Random randomizer=new Random();
@@ -100,4 +100,5 @@ public class UClimateData {
         }
 
     }
+*/
 }

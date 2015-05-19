@@ -50,7 +50,6 @@ public class UClimateData {
 			case "cn":
 				break;
 			default:
-				System.out.println("COS CHYBA POSZLO NIE TAK HEHE (nieodnaleziono prefiksa)"); //TODO exception
 				break;
 			}
 		}

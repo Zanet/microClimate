@@ -37,9 +37,7 @@ public class Server implements Runnable {
 	    }
 	    while(!isStopped){
 		    try {
-		    	System.out.println("oczekiwanie...");
 		        s = serverSocket.accept();
-		        System.out.println("POLACZONO");
 		        PrintWriter output = new PrintWriter(s.getOutputStream(), true);
 		        output.write(data.toString());
 		      } catch (IOException e) {

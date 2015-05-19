@@ -39,7 +39,6 @@ public class PressureTab extends MyFragment implements Updateable{
     @Override
     public void updateData(UClimateData data) {
         value = data.getPressure();
-        //System.out.println("press:"+Float.toString(value));
         ((TextView) getView().findViewById(R.id.textView)).setText(Float.toString(value)+" hPa");
         if(value > 1040.0) {
             ImageView im = (ImageView) getView().findViewById(R.id.image);
