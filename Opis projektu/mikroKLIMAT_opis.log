@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.25)  19 MAY 2015 13:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.25)  19 MAY 2015 22:28
 entering extended mode
 **mikroKLIMAT_opis.tex
 ("D:\Dokumenty\Projekty\microClimate\Opis projektu\mikroKLIMAT_opis.tex"
@@ -1166,144 +1166,113 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: MQ135.jpg Graphic file (type jpg)
  <use MQ135.jpg>
 Package pdftex.def Info: MQ135.jpg used on input line 151.
-(pdftex.def)             Requested size: 177.18619pt x 170.71652pt.
-
-<MQ3.jpg, id=85, 2760.3125pt x 2413.015pt>
+(pdftex.def)             Requested size: 236.26271pt x 227.62204pt.
+ [3 <D:/Dokumenty/Projekty/microClimate/Opis projektu/MQ135.jpg>]
+<MQ3.jpg, id=94, 2760.3125pt x 2413.015pt>
 File: MQ3.jpg Graphic file (type jpg)
  <use MQ3.jpg>
-Package pdftex.def Info: MQ3.jpg used on input line 161.
-(pdftex.def)             Requested size: 195.26332pt x 170.71652pt.
+Package pdftex.def Info: MQ3.jpg used on input line 163.
+(pdftex.def)             Requested size: 260.37918pt x 227.62204pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<BMP180.jpg, id=86, 2594.69376pt x 2390.9325pt>
+<BMP180.jpg, id=95, 2594.69376pt x 2390.9325pt>
 File: BMP180.jpg Graphic file (type jpg)
  <use BMP180.jpg>
-Package pdftex.def Info: BMP180.jpg used on input line 173.
-(pdftex.def)             Requested size: 154.36838pt x 142.26378pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 <D:/Dokumenty/Projekty/microClimate/Opis projektu/MQ135.jpg>]
-<fotorezystor.jpg, id=96, 3572.34625pt x 2715.14375pt>
+Package pdftex.def Info: BMP180.jpg used on input line 175.
+(pdftex.def)             Requested size: 247.01317pt x 227.62204pt.
+ [4 <D:/Dokumenty/Projekty/microClimate/Opis projektu/MQ3.jpg> <D:/Dokumenty/Pr
+ojekty/microClimate/Opis projektu/BMP180.jpg>]
+<fotorezystor.jpg, id=102, 3572.34625pt x 2715.14375pt>
 File: fotorezystor.jpg Graphic file (type jpg)
  <use fotorezystor.jpg>
-Package pdftex.def Info: fotorezystor.jpg used on input line 183.
-(pdftex.def)             Requested size: 187.13126pt x 142.26378pt.
+Package pdftex.def Info: fotorezystor.jpg used on input line 187.
+(pdftex.def)             Requested size: 299.47543pt x 227.62204pt.
 
-<DHT11.jpg, id=97, 3648.63126pt x 2749.27126pt>
+<DHT11.jpg, id=103, 3648.63126pt x 2749.27126pt>
 File: DHT11.jpg Graphic file (type jpg)
  <use DHT11.jpg>
-Package pdftex.def Info: DHT11.jpg used on input line 193.
-(pdftex.def)             Requested size: 188.78903pt x 142.26378pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<ESP8266.jpg, id=98, 2837.60126pt x 3107.61pt>
+Package pdftex.def Info: DHT11.jpg used on input line 197.
+(pdftex.def)             Requested size: 302.08473pt x 227.62204pt.
+ [5 <D:/Dokumenty/Projekty/microClimate/Opis projektu/fotorezystor.jpg> <D:/Dok
+umenty/Projekty/microClimate/Opis projektu/DHT11.jpg>]
+<ESP8266.jpg, id=110, 2837.60126pt x 3107.61pt>
 File: ESP8266.jpg Graphic file (type jpg)
  <use ESP8266.jpg>
-Package pdftex.def Info: ESP8266.jpg used on input line 204.
-(pdftex.def)             Requested size: 155.8737pt x 170.71652pt.
- [4 <D:/Dokumenty/Projekty/microClimate/Opis projektu/MQ3.jpg> <D:/Dokumenty/Pr
-ojekty/microClimate/Opis projektu/BMP180.jpg> <D:/Dokumenty/Projekty/microClima
-te/Opis projektu/fotorezystor.jpg>] <obudowa.jpg, id=106, 3472.975pt x 2700.087
-5pt>
+Package pdftex.def Info: ESP8266.jpg used on input line 211.
+(pdftex.def)             Requested size: 207.8316pt x 227.62204pt.
+
+<obudowa.jpg, id=111, 3472.975pt x 2700.0875pt>
 File: obudowa.jpg Graphic file (type jpg)
-
-<use obudowa.jpg>
-Package pdftex.def Info: obudowa.jpg used on input line 213.
-(pdftex.def)             Requested size: 219.55109pt x 170.71652pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<dev1.png, id=107, 321.2pt x 481.8pt>
+ <use obudowa.jpg>
+Package pdftex.def Info: obudowa.jpg used on input line 220.
+(pdftex.def)             Requested size: 292.73479pt x 227.62204pt.
+ [6 <D:/Dokumenty/Projekty/microClimate/Opis projektu/ESP8266.jpg> <D:/Dokument
+y/Projekty/microClimate/Opis projektu/obudowa.jpg>] <dev1.png, id=118, 321.2pt 
+x 481.8pt>
 File: dev1.png Graphic file (type png)
- <use dev1.png>
-Package pdftex.def Info: dev1.png used on input line 222.
-(pdftex.def)             Requested size: 99.58464pt x 149.37851pt.
 
-<dev2.png, id=109, 321.2pt x 481.8pt>
+<use dev1.png>
+Package pdftex.def Info: dev1.png used on input line 231.
+(pdftex.def)             Requested size: 99.58464pt x 149.37851pt.
+ <dev2.png, id=120, 321.2pt x 481.8pt>
 File: dev2.png Graphic file (type png)
  <use dev2.png>
-Package pdftex.def Info: dev2.png used on input line 223.
+Package pdftex.def Info: dev2.png used on input line 232.
 (pdftex.def)             Requested size: 99.58464pt x 149.37851pt.
 
-<dev3.png, id=110, 321.2pt x 481.8pt>
+<dev3.png, id=121, 321.2pt x 481.8pt>
 File: dev3.png Graphic file (type png)
  <use dev3.png>
-Package pdftex.def Info: dev3.png used on input line 224.
+Package pdftex.def Info: dev3.png used on input line 233.
 (pdftex.def)             Requested size: 99.58464pt x 149.37851pt.
 
-<dev4.png, id=111, 321.2pt x 481.8pt>
+<dev4.png, id=122, 321.2pt x 481.8pt>
 File: dev4.png Graphic file (type png)
  <use dev4.png>
-Package pdftex.def Info: dev4.png used on input line 225.
+Package pdftex.def Info: dev4.png used on input line 234.
 (pdftex.def)             Requested size: 99.58464pt x 149.37851pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<wykresy.jpg, id=112, 1927.2pt x 1051.93pt>
+<wykresy.jpg, id=123, 1927.2pt x 1051.93pt>
 File: wykresy.jpg Graphic file (type jpg)
  <use wykresy.jpg>
-Package pdftex.def Info: wykresy.jpg used on input line 234.
+Package pdftex.def Info: wykresy.jpg used on input line 243.
 (pdftex.def)             Requested size: 443.07025pt x 241.84842pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<schemat.jpg, id=113, 2665.96pt x 1481.535pt>
+ [7 <D:/Dokumenty/Projekty/microClimate/Opis projektu/dev1.png> <D:/Dokumenty/P
+rojekty/microClimate/Opis projektu/dev2.png> <D:/Dokumenty/Projekty/microClimat
+e/Opis projektu/dev3.png> <D:/Dokumenty/Projekty/microClimate/Opis projektu/dev
+4.png> <D:/Dokumenty/Projekty/microClimate/Opis projektu/wykresy.jpg>]
+<schemat.jpg, id=135, 2665.96pt x 1481.535pt>
 File: schemat.jpg Graphic file (type jpg)
  <use schemat.jpg>
-Package pdftex.def Info: schemat.jpg used on input line 242.
-(pdftex.def)             Requested size: 460.77354pt x 256.0748pt.
-
-Overfull \hbox (5.52943pt too wide) in paragraph at lines 242--244
- [][] 
- []
-
-[5 <D:/Dokumenty/Projekty/microClimate/Opis projektu/DHT11.jpg> <D:/Dokumenty/P
-rojekty/microClimate/Opis projektu/ESP8266.jpg>]
-
-LaTeX Warning: Text page 6 contains only floats.
-
-[6 <D:/Dokumenty/Projekty/microClimate/Opis projektu/obudowa.jpg> <D:/Dokumenty
-/Projekty/microClimate/Opis projektu/dev1.png> <D:/Dokumenty/Projekty/microClim
-ate/Opis projektu/dev2.png> <D:/Dokumenty/Projekty/microClimate/Opis projektu/d
-ev3.png> <D:/Dokumenty/Projekty/microClimate/Opis projektu/dev4.png> <D:/Dokume
-nty/Projekty/microClimate/Opis projektu/wykresy.jpg>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 264.
+Package pdftex.def Info: schemat.jpg used on input line 253.
+(pdftex.def)             Requested size: 435.18631pt x 241.84842pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 275.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [7 <D:/Dokumenty/Projekty/microClimate/Opis projektu/schemat.jpg>] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
+) [8 <D:/Dokumenty/Projekty/microClimate/Opis projektu/schemat.jpg>] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
 
 ("D:\Dokumenty\Projekty\microClimate\Opis projektu\mikroKLIMAT_opis.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 305.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
 Package rerunfilecheck Info: File `mikroKLIMAT_opis.out' has not changed.
-(rerunfilecheck)             Checksum: 1838C1A717C2E22ED2D09D10FCEB0D93;942.
+(rerunfilecheck)             Checksum: CF79C63D1C31136034EA38833E720DF5;960.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 305.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  ) 
 Here is how much of TeX's memory you used:
- 27156 strings out of 493921
- 628266 string characters out of 3144879
+ 27157 strings out of 493921
+ 628272 string characters out of 3144879
  839990 words of memory out of 3000000
  29940 multiletter control sequences out of 15000+200000
  22553 words of font info for 58 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,12n,77p,871b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,13n,77p,871b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Kuba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
 ctt1200.pk> <C:\Users\Kuba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\eccc0800.pk> <C:\Users\Kuba\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
@@ -1324,9 +1293,9 @@ m/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb>
-Output written on mikroKLIMAT_opis.pdf (8 pages, 10016102 bytes).
+Output written on mikroKLIMAT_opis.pdf (9 pages, 10090717 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 454 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 

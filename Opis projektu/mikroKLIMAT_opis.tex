@@ -148,17 +148,19 @@ W celu zapewnienia jak największego przekroju badanych parametrów zastosowano 
 		
 \begin{figure}[!h]
 	\centering
-	\includegraphics[height =60mm]{MQ135.jpg}
+	\includegraphics[height =80mm]{MQ135.jpg}
 	\label{MQ135}
 	\caption{Czujnik jakości powietrza MQ135 służy do pomiaru stężenia $CO_2$ oraz poziomów alarmowych czadu i dymu}
 \end{figure}
+
+\newpage
 
 		\item[b)] Czujnik alkoholu - MQ3 \\	
 		Czujnik MQ3 poza wykrywaniem etanolu jest również wrażliwy na metan, dzięki czemu wykryje wszelkiego rodzaju wycieki gazu.
 		
 \begin{figure}[!h]	
 \centering
-	\includegraphics[height =60mm]{MQ3.jpg}
+	\includegraphics[height =80mm]{MQ3.jpg}
 	\label{MQ3}
 	\caption{Czujnik alkoholu i wycieków gazu -- MQ3}
 \end{figure}		
@@ -170,17 +172,19 @@ W celu zapewnienia jak największego przekroju badanych parametrów zastosowano 
 
 \begin{figure}[!h]	
 \centering
-	\includegraphics[height =50mm]{BMP180.jpg}
+	\includegraphics[height =80mm]{BMP180.jpg}
 	\label{BMP180}
 	\caption{Czujnik temperatury i ciśnienia -- BMP180}
 \end{figure}	
+	
+\newpage	
 	
 	\item[3)]Fotorezystor\\
 	W celu pomiaru poziomu oświetlenia wykorzystano fotorezystor $5-10k\Omega$.
 
 \begin{figure}[!h]	
 \centering
-	\includegraphics[height =50mm]{fotorezystor.jpg}
+	\includegraphics[height =80mm]{fotorezystor.jpg}
 	\label{fotorezystor}
 	\caption{Fotorezystor $5-10k\Omega$}
 \end{figure}	
@@ -190,18 +194,21 @@ W celu zapewnienia jak największego przekroju badanych parametrów zastosowano 
 
 \begin{figure}[!h]	
 \centering
-	\includegraphics[height =50mm]{DHT11.jpg}
+	\includegraphics[height =80mm]{DHT11.jpg}
 	\label{DHT11}
 	\caption{Pojemnościowy czujnik wilgotności -- DHT11}
 \end{figure}		
 	
 \end{enumerate}
+
+\newpage
+
 \subsubsection{Komunikacja}
 Dane odczytywane z czujników są wyświetlane na ekranie LCD oraz wysyłane poprzez sieć WiFi do aplikacji mobilnej.
 % Typ ekranu LCD to: JHD 204A
 \begin{figure}[!h]	
 \centering
-	\includegraphics[height =60mm]{ESP8266.jpg}
+	\includegraphics[height =80mm]{ESP8266.jpg}
 	\label{ESP8266}
 	\caption{Moduł WiFi ESP8266 zapewnia komunikację WiFi}
 \end{figure}	
@@ -210,10 +217,12 @@ Dane odczytywane z czujników są wyświetlane na ekranie LCD oraz wysyłane pop
 Obudowa projektu została zaprojektowana w programie Inventor oraz wydrukowana na drukarce 3D Pirx.
 	\begin{figure}[!h]
 	\centering
-		\includegraphics[height =60mm]{obudowa.jpg}
+		\includegraphics[height =80mm]{obudowa.jpg}
 		\label{elktro}
 		\caption{Obudowa projektu wydrukowana na drukarce 3D}
 	\end{figure}
+
+\newpage
 
 \subsubsection{Aplikacja mobilna}
 Umożliwia ona podgląd wartości z czujników przez internet. Kolorowe grafiki ułatwiają ocenę stanu poszczególnych parametrów środowiska. 
@@ -235,11 +244,13 @@ System pozwala obserwować przebiegi odczytywanych z czujników wartości. Progr
 		\label{wykresy}
 		\caption{System akwizycji danych}
 	\end{figure}
+
+\newpage    
     
-\subsubsection{Schemat elektryczny projektu}    
+\subsubsection{Schemat elektryczny projektu stacji pomiarowej}    
 	\begin{figure}[!h]
 	\centering
-		\includegraphics[height =90mm]{schemat.jpg}
+		\includegraphics[height =85mm]{schemat.jpg}
 		\label{schemat}
 		\caption{Schemat elektryczny}
 	\end{figure}
@@ -275,7 +286,7 @@ Dodatkowo w przyszłości zostanie zaimplementowany system akwizycji danych na a
 
 W początkowym etapie pracy na projektem podzieliliśmy się zadaniami po równo, tak aby każdy z nas mógł wykazać się swoimi najlepszymi umiejętnościami oraz robił to, co lubi. I tak Jakub Szczepankiewicz podjął się zadania stworzenia aplikacji mobilnej, Jakub Porębski był odpowiedzialny za komunikację WiFi na FRDM KL25Z oraz za zaprojektowanie obudowy. Zadaniem Żanety było stworzenie obsługi czujników oraz odpowiednia ich kalibracja.
 
-Jednakże nasza indywidualna praca nad projektem to nie wszystko. Są to również godziny spędzone na dyskusji, tysiące wiadomości wysyłanych do siebie oraz wiele pozytywnych emocji. W trakcie tworzenia projektu okazało się, że musimy wykorzystać wiedzę z bardzo wielu różnych dziedzin. Znajomość chemii ciała stałego pozwoliła skalibrować czujniki gazów. Projekt został napisany w wielu językach programowania, takich jak \mbox{MATLAB}, C i JAVA. Tylko dzięki współpracy i ciągłemu wspieraniu się wzajemnie udało nam się zbudować projekt, któremu każdy z osobna by nie podołał.
+Jednakże nasza indywidualna praca nad projektem to nie wszystko. Są to również godziny spędzone na dyskusji, tysiące wiadomości wysyłanych do siebie oraz wiele pozytywnych emocji. W trakcie tworzenia projektu okazało się, że musimy wykorzystać wiedzę z bardzo wielu różnych dziedzin. Przykładowo znajomość chemii ciała stałego pomogła skalibrować czujniki gazów. Projekt został napisany z użyciem trzech języków programowania: \mbox{MATLAB}, C++ i JAVA. Tylko dzięki współpracy i ciągłemu wspieraniu się wzajemnie udało się nam sfinalizować projekt i uzyskać  rezultaty nieosiągalne dla pracy w pojedynkę.
 
 %Taki podział prac pozwolił nam na zorganizowany rozwój projektu. 
 
