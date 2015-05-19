@@ -1,0 +1,12 @@
+data/Print.cpp.i
+data/itoas.cpp.i
+data/Arduino.h.i
+data/WString.h.i
+data/time.h.i
+data/ArduinoAPI.h.i
+data/ArduinoSerial.h.i
+data/time.cpp.i
+data/Print.h.i
+data/itoas.h.i
+data/WString.cpp.i
+data/ArduinoSerial.cpp.i

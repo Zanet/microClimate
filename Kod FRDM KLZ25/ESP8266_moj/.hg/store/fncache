@@ -1,0 +1,6 @@
+data/ESP8266.h.i
+data/log.h.i
+data/ESP8266AT.cpp.i
+data/ESP8266AT.h.i
+data/ArduinoAPI.lib.i
+data/ESP8266.cpp.i

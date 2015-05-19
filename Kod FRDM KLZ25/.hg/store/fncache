@@ -1,0 +1,6 @@
+data/BMP180.lib.i
+data/TextLCD.lib.i
+data/main.cpp.i
+data/DHT.lib.i
+data/DHT11.lib.i
+data/mbed.bld.i
