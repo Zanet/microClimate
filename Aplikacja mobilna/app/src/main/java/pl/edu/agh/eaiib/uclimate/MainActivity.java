@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity{
         int id = item.getItemId();
 
         if (id == R.id.update) {
-            data.testing();
-            //new AsyncOperation().execute();
+            //data.testing();
+            new AsyncOperation().execute();
             tabAdapter.setData(data);
             tabAdapter.notifyDataSetChanged();
             return true;

@@ -15,8 +15,8 @@ import pl.edu.agh.eaiib.uclimate.UClimateData;
  * Created by Jakub Szczepankiewicz on 2015-05-17.
  */
 public class Connector {
-private final String SERVERADDRESS = "192.168.0.18";
-private final int SERVERPORT = 11111;
+    private final String SERVERADDRESS = "192.168.0.18";
+    private final int SERVERPORT = 11111;
 
     private Socket server;
     private BufferedReader read = null;
@@ -70,7 +70,7 @@ private final int SERVERPORT = 11111;
 
 
     /**
-     * Closes socket
+     * Closes socket and reading buffer
      */
     private void disconnect(){
         try {
